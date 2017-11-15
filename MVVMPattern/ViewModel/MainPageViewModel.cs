@@ -21,7 +21,7 @@ namespace MVVMPattern.ViewModel
         {
             var today = DateTime.Today;
             var age = today.Year - birthday.Year;
-            //age = today < birthday.AddYears(age) ? age-- : age;
+
             if(today < birthday.AddYears(age))
             {
                 age--;
